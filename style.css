@@ -1,0 +1,357 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Candara';
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+
+header {
+    height: 657px;
+    background-color: black;
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* #obintus_img {
+    width: 657px;
+    height: auto;
+} */
+
+
+#nav_cover  {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 999;
+}
+.logo_cover {
+    float: left;
+}
+#nav_logo {
+    width: 40px;
+    padding: 20px 0;
+}
+/* #menu_links {
+    display: inline;
+} */
+@media screen and (max-width: 767px){
+    #nav_logo {
+        width: 30px;
+        padding: 20px 0;
+    }
+}
+
+#background_image {
+    background-image: url("images/obintus4.png");
+    background-size: cover;
+    height: 657px; 
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 991px){
+    #background_image {
+        display: none;
+    }
+
+    #background_image_mobile {
+        background-image: url("images/obintus4.png");
+        background-size: cover;
+        height: 657px; 
+        background-repeat: no-repeat;
+        margin-left: -400px;
+    }
+}
+@media screen and (max-width: 767px){
+    #background_image_mobile {
+        background-image: url("images/obintus4.png");
+        background-size: cover;
+        height: 657px; 
+        background-repeat: no-repeat;
+        margin-left: -260px;
+    }
+}
+
+.intro_cover {
+    padding-top: 200px;
+}
+.badge {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+}
+.intro_heading {
+    font-size: 54px;
+    font-family:'Candara';
+    font-weight: bold;
+}
+.intro_det {
+    font-size: 33px;
+}
+.intro_para {
+    font-size: 12.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+.icon_group {
+    margin-top: 30px;
+}
+.icon_cover {
+    margin: 5px;
+}
+.fa {
+    font-size: 17px;
+    color: white;
+}
+
+
+#myaction_button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    font-size: 11px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #bd502f;
+    color: white;
+}
+#myaction_button:hover {
+    background-color: white;
+    color: #bd502f;
+    font-weight: bold;
+    transition: ease-in .2s;
+}
+
+@media screen and (max-width: 767px){
+    .intro_heading {
+        font-size: 40px;
+    }
+    .intro_det {
+        font-size: 25px;
+    }
+    .intro_para {
+        font-size: 9.5px;
+        margin-top: 10px;
+    }
+    #myaction_button {
+        padding: 16px 35px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 414px){
+    .intro_cover {
+        padding-top: 180px;
+    }
+    .intro_heading {
+        font-size: 35px;
+    }
+    .intro_det {
+        font-size: 20px;
+    }
+    .intro_para {
+        font-size: 7.5px;
+        margin-top: 10px;
+    }
+    #myaction_button {
+        padding: 10px 23px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 375px){
+    .intro_heading {
+        font-size: 32px;
+    }
+}
+
+
+
+
+
+/*********** ABOUT **************/
+#about_cover {
+    background-color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+.heading_det {
+    color: #bd502f;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading_det2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.para_det {
+    color: black;
+    font-size: 16px;
+}
+/*  */
+
+
+/*********** EDUCATION COVER **************/
+.work_cover {
+    background-color: #bd502f;
+    background-image: url("images/bg-works.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    text-align: center;
+}
+#w_image {
+    width: 190px;
+    float: right;
+    clear: right;
+}
+#w_image2 {
+    width: 250px;
+    float: right;
+    clear: right;
+    margin-top: -10px;
+}
+.w_desc {
+    margin-top: -5px;
+}
+.w_duration {
+    display: block;
+    float: right;
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-family: 'Arial';
+    padding-top: 12px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    width: fit-content;
+}
+
+@media screen and (max-width: 991px){
+    #w_image {
+        width: 190px;
+        float: none;
+        clear: none;
+    }
+    #w_image2 {
+        width: 250px;
+        float: none;
+        clear: none;
+    }
+    .w_duration {
+        border-top-width: 2.4px;
+        padding-top: 14px;
+        float: none;
+        width: auto;
+    }
+}
+
+
+
+/********** Education *********/
+#education_cover {
+    background-color: black;
+    text-align: center;
+    padding: 30px 0;
+}
+.inner_edu_cover {
+    background-color: black;
+    padding: 25px 10px;
+    box-shadow: 1px 1px 25px 2px #bd502f77;
+}
+.header_edu, .det_edu, .duration_edu {
+    color: #bd502f;
+    font-weight: bold;
+}
+/* // */
+
+
+/********** POTENTIAL SKILLS *********/
+#skills_cover {
+    background-color: #bd502f;
+    background-image: url("images/bg4.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.skill_images {
+    width: 100px;
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .skill_images {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+.skill_badge {
+    color: #be4c29;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.percentage_block_cover {
+    border: 2px solid #be4c29;
+    position: absolute;
+    height: 26px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 6px 0;
+}
+.percentage_block {
+    background-color: #be4c29;
+    color: white;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 6px 0;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+#html {width: 95%;}
+#css {width: 85%;}
+#javascript {width: 68%;}
+#jquery {width: 77%;}
+#bootstrap {width: 85%;}
+#php {width: 79%;}
+#sql {width: 90%;}
+#msql {width: 70%;}
+#photoshop {width: 60%;}
+#adobexd {width: 88%;}
+#figma {width: 40%;}
+#reactjs {width: 55%;}
+#wordpress {width: 61%;}
+#github {width: 50%;}
+#python {width: 35%;}
+
+
+@media screen and (max-width: 991px){
+    .skill_badge {
+        text-align: center;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+    }
+}
+/* // */
+
+
+#footer {
+    height: 80px;
+    line-height: 80px;
+    color: #be4c29;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+}
