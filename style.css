@@ -1,7 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/8daa0f2304ee100fe3888d5b7307e64f?family=Candara);
+
+@font-face {font-family: "Candara"; src: url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.eot"); src: url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.woff") format("woff"), url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8daa0f2304ee100fe3888d5b7307e64f.svg#Candara") format("svg"); }
+
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Candara';
+    font-family: "Candara";
     scroll-behavior: smooth;
 }
 
@@ -297,6 +301,17 @@ header {
     text-align: center;
 }
 
+@media screen and (max-width: 767px){
+    #skills_cover {
+        background-color: black;
+        background-image: url("");
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 30px 60px;
+        text-align: center;
+    }
+}
 .skill_images {
     width: 100px;
     display: none;
