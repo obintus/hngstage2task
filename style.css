@@ -4,6 +4,7 @@ html, body {
     font-family: 'Candara';
     scroll-behavior: smooth;
 }
+
 h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
@@ -21,6 +22,21 @@ header {
     height: auto;
 } */
 
+#body_cover {
+    overflow-y: hidden;
+}
+#overlay {
+    z-index: 999999;
+    background-color: black;
+    color: white;
+    height: 700px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    overflow-y: hidden;
+    text-align: center;
+    padding-top: 250px;
+}
 
 #nav_cover  {
     position: fixed;
