@@ -21,6 +21,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 /* #obintus_img {
     width: 657px;
     height: auto;
@@ -52,16 +53,33 @@ header {
     float: left;
 }
 #nav_logo {
-    width: 40px;
+    width: 30px;
     padding: 20px 0;
+    display: inline;
+}
+#nav_logo_2 {
+    width: 100px;
+    padding: 20px 5px;
+    margin-top: -60px;
 }
 /* #menu_links {
     display: inline;
 } */
 @media screen and (max-width: 767px){
     #nav_logo {
-        width: 30px;
+        width: 20px;
         padding: 20px 0;
+    }
+    #nav_logo_2 {
+        width: 80px;
+        padding: 20px 5px;
+        margin-top: -47px;
+    }
+    .header_cover {
+        background-image: url("images/giphy.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 99;
     }
 }
 
@@ -216,7 +234,7 @@ header {
 /*  */
 
 
-/*********** EDUCATION COVER **************/
+/*********** WORK COVER **************/
 .work_cover {
     background-color: #bd502f;
     background-image: url("images/bg-works.png");
@@ -376,6 +394,31 @@ header {
     }
 }
 /* // */
+
+
+
+
+/* HOBBIES AND INTERESTS */
+#hi_cover {
+    background-color: #bd502f;
+    background-image: url("images/bg-works.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+.h_img {
+    width: 200px;
+}
+@media screen and (max-width: 767px){
+    .h_img {
+        margin-top: 55px;
+        width: 120px;
+    }
+}
+/* // */
+
 
 
 #footer {
